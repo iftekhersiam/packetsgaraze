@@ -1,0 +1,96 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-image: url("images/bc1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color:#c90a0aad;
+    font-size: 40pt;
+}
+h2{
+    text-align: center;
+    color:#c90a0aad;
+}
+.item-box {
+    width: 1100px;
+    height: 1050px;
+    border: none;
+    position: relative;
+    margin: 0 auto;
+    padding: 18px;
+    top:100px;
+     
+  }
+  .input-items {
+  float: none;
+   
+     
+  }
+  
+  .input-items .type-trigger {
+    position: absolute;
+    opacity: 0;
+  }
+  .input-items label {
+  /*   border: 1px solid red; */
+  }
+  .input-items label .main-content {
+    visibility: visible;
+    opacity: 0;
+    position: absolute;
+    top: 200px;
+    left: -1700px;
+  }
+  .input-items .type-trigger:checked + label .main-content {
+    visibility: visible;
+    opacity: 1;
+    left: 350px;
+    transition: all .5s;
+  }
+  .input-items .type-trigger:checked + label .main-content:hover {
+    visibility: visible;
+    opacity: 1;
+    left: 350px;
+    transition:3s;
+    transform: scale(1.3);
+    background: #3d47d973;
+  }
+  
+  
+  .input-items .type-trigger:checked + label .main-content .price  {
+      text-align:center;
+      font-size: 15pt;
+      color:rgb(8, 3, 3);
+    left:20px;}
+
+      
+      
+     
+     
+  .input-items .type-trigger:checked + label .main-content .price:hover {
+      text-align: center;
+      transform: scale(1.3);
+    background: #0ce9b98e;
+    z-index: 2;
+    transition:1s;}
+
+
+    .input-items .type-trigger:checked + label .main-content .price p:hover { 
+         text-align: center;
+        transform: scale(1.1.3);
+        color:white;
+      background: #10dcebcb;
+      z-index: 2;
+      transition:1s;}
+
+    }
+    #logo{
+        position: relative; 
+        right:-400px;
+        z-index: 1;
+    }
+ 
+    

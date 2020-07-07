@@ -1,0 +1,25 @@
+body{
+    background-image: url("images/bc3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color:black;
+}
+h2{
+    text-align: center;
+    color:black;
+}
+h3{
+    text-align: center;
+    color:black;
+}
+#img {
+    position: relative;
+}
+#logo{
+    position: relative;
+    top:200px;
+    left:500px;
+}
